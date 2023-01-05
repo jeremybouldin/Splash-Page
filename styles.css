@@ -39,6 +39,16 @@ p {
     margin-bottom: 0.5em;
 }
 
+.top-text {
+    display: inline;
+    font-size: 0.875rem;
+    font-weight: 900;
+    padding-top: 0.25em;
+    border-top: 5px solid;
+    order: -1;
+    margin: 0 auto;
+}
+
 .fine-print {
     font-size: 0.75rem;
     letter-spacing: 1px;
@@ -65,9 +75,10 @@ p {
     min-height: 250px;
     color: #fff;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     background: #9480e4 url('images/intro-bg.png');
     background-size: cover;
+    padding-bottom: 1.5em;
 }
 
 /* ====================
